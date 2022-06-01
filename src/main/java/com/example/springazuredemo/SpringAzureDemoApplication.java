@@ -11,7 +11,7 @@ public class SpringAzureDemoApplication {
 
     @GetMapping("/message")
     public String message(){
-        return "Cograts ! Your App Deployed Successfully in Azure";
+        return "Cograts Bhagyashri! Your App Deployed Successfully in Azure platform";
     }
 
     public static void main(String[] args) {
