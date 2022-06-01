@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringAzureDemoApplication {
 
-    @GetMapping("/message")
+    @GetMapping("/messages")
     public String message(){
-        return "Cograts Bhagyashri! Your App Deployed Successfully in Azure platform";
+        return "Cograts Bhagyashri! Your App Deployed Successfully in Azure platform with the mentioned changes";
     }
 
     public static void main(String[] args) {
